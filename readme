@@ -1,1 +1,254 @@
 
+# 🔎 Digital Lost & Found System
+
+> **Find what's Lost. Return what's Found.**
+
+A secure and user-friendly **Digital Lost & Found System** designed to help users report lost or found items, search available records, and reconnect belongings with their rightful owners.
+
+The platform provides a centralized environment for managing lost and found items while focusing on **security, privacy, and easy communication**.
+
+---
+
+## 🚀 Features
+
+### 🔐 Secure Authentication
+
+* User registration and login
+* Secure authentication using JWT
+* Verified users can manage their lost/found claims
+* Helps prevent unauthorized access
+
+### 📢 Report Lost Items
+
+Users can report items they have lost by providing relevant information about the item.
+
+### 📦 Report Found Items
+
+Users who discover a lost item can submit its details to help the owner recover it.
+
+### 🔎 Search Database
+
+Users can browse and search the lost and found database to identify matching items.
+
+### 💬 Private Messaging
+
+Users can communicate securely without exposing personal contact information such as phone numbers or email addresses.
+
+### 📸 Evidence Upload
+
+Photographic evidence can be uploaded to help identify and verify lost or found items.
+
+### 🛡️ Privacy & Security
+
+The system is designed so that user information remains private until communication is approved.
+
+### ⚡ Real-Time Records
+
+Lost and found records are synchronized with the database to provide updated information.
+
+---
+
+## 🖥️ Screens
+
+The application includes:
+
+* 🏠 Home Page
+* 🔐 Login Page
+* 📝 Registration Page
+* 📢 Report Lost Item
+* 📦 Report Found Item
+* 🔎 Search Database
+* 💬 Private Messaging
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 5.3.2
+* Font Awesome
+
+### Backend
+
+* Java
+* Spring Boot
+* REST APIs
+* JWT Authentication
+
+### Database
+
+* MySQL / MongoDB *(update this based on your actual database)*
+
+### Tools
+
+* Git
+* GitHub
+* Visual Studio Code / IntelliJ IDEA
+
+---
+
+## 📂 Project Structure
+
+```text
+Digital-Lost-and-Found/
+│
+├── index.html
+├── login.html
+├── register.html
+├── report-lost.html
+├── report-found.html
+├── search.html
+│
+├── style.css
+├── script.js
+│
+├── backend/
+│   └── ...
+│
+└── README.md
+```
+
+---
+
+## ⚙️ How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/digital-lost-and-found.git
+```
+
+### 2. Open the Project
+
+Open the project folder in **VS Code** or your preferred IDE.
+
+### 3. Run the Frontend
+
+Open `index.html` using a browser or **Live Server** extension in VS Code.
+
+### 4. Start the Backend
+
+If the Spring Boot backend is included:
+
+```bash
+mvn spring-boot:run
+```
+
+Make sure the database configuration is correctly set before starting the application.
+
+---
+
+## 🔄 System Workflow
+
+```text
+User
+  │
+  ▼
+Register / Login
+  │
+  ▼
+Authentication
+  │
+  ├───────────────┐
+  ▼               ▼
+Report Lost    Report Found
+  │               │
+  └───────┬───────┘
+          ▼
+     Database
+          │
+          ▼
+    Search & Match
+          │
+          ▼
+   Private Messaging
+          │
+          ▼
+    Item Recovery
+```
+
+---
+
+## 🔒 Security
+
+The system focuses on protecting user information and improving trust during the recovery process.
+
+Key security features include:
+
+* JWT-based authentication
+* Authenticated user actions
+* Private communication
+* Controlled access to user information
+* Secure handling of lost/found claims
+
+---
+
+## 🎯 Objectives
+
+The main objectives of the project are:
+
+1. Provide a centralized platform for lost and found items.
+2. Make reporting lost or found belongings simple.
+3. Help users quickly search for matching items.
+4. Protect users' personal information.
+5. Enable secure communication between users.
+6. Improve the chances of successfully recovering lost belongings.
+
+---
+
+## 🌟 Future Enhancements
+
+The system can be further improved by adding:
+
+* 🤖 AI-powered image matching
+* 📍 Location-based item matching
+* 🔔 Email/SMS notifications
+* 📱 Mobile application
+* 🧠 AI-based duplicate detection
+* 🗺️ Interactive map for lost/found locations
+* 📊 Admin dashboard and analytics
+* ☁️ Cloud deployment
+* 🔐 Two-factor authentication
+
+---
+
+## 📸 Screenshots
+
+Add your project screenshots here:
+
+```text
+screenshots/
+├── home.png
+├── login.png
+├── report-lost.png
+├── report-found.png
+└── search.png
+```
+
+Example:
+
+```markdown
+![Home Page](screenshots/home.png)
+```
+
+---
+
+## 👩‍💻 Developed By
+
+**Rithika Saravanan**
+
+B.Tech Information Technology
+
+---
+
+## 📄 License
+
+This project is developed for **educational and academic purposes**.
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
